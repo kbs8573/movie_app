@@ -1,6 +1,14 @@
+.movies {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-gap: 100px;
+  padding: 50px;
+  width: 80%;
+  padding-top: 70px;
+}
 
 .movies .movie {
-  background-color:white;
+  background-color:rgb(71, 70, 70);
   margin-bottom: 70px;
   font-weight: 300;
   padding: 20px;
@@ -16,7 +24,7 @@
   grid-gap: 20px;
   text-decoration: none;
   color: inherit;
-  color : black;
+  color : rgb(185, 26, 26);
 }
 
 .movie img {
@@ -33,7 +41,6 @@
 .movie .year {
   margin: 0;
   font-weight: 300;
-  
 }
 
 .movie .title {

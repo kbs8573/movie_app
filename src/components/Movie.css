@@ -1,10 +1,14 @@
+
 .movies {
   display: grid;
-  grid-template-columns: repeat(2, minmax(400px, 1fr));
-  grid-gap: 100px;
-  padding: 50px;
-  width: 80%;
+  grid-template-columns: repeat(3, minmax(80px, 1fr));
+  grid-gap: 50px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 120px;
   padding-top: 70px;
+  width: 80%;
 }
 
 .movies .movie {
@@ -25,6 +29,7 @@
   text-decoration: none;
   color: inherit;
   color : rgb(185, 26, 26);
+  width : 1000px
 }
 
 .movie img {
@@ -45,7 +50,7 @@
 
 .movie .title {
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 25px;
   color: #2c2c2c;
 }
 
